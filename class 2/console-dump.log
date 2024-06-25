@@ -1,0 +1,38 @@
+var age = 27;
+undefined
+var name = 'Yamini'
+undefined
+name
+'Yamini'
+age
+27
+
+// number which exceeds the limit
+var num = 2348932748923748932748937489237498237893274878497894723874328934722848923789734232748942379847984373897349872498743289774837489374893748937498327493827489374982734987239847238947329847239847328947239847982347892478937438924798234798234792837498327498327498327489379823743174902849021784901289084091283091283901283192038091238920138019238129083120938190481209412894721489712942190840128
+undefined
+num
+Infinity
+
+// variables
+var input = 2   // user input
+var mac = 1
+var iphone = 2
+var android = 3
+var dyson = 4
+
+// if else statements
+if(input == mac) console.log("selling mac")
+else {
+    console.log("i am not selling anything")
+}
+VM3871:8 i am not selling anything
+
+// multiple if else statements
+if(input == mac) console.log("selling mac")
+else if(input == iphone) console.log("selling iphone")
+else if(input == android) console.log("selling android")
+else {
+    console.log("i am not selling anything")
+}
+VM3890:2 selling iphone
+
